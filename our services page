@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon MUT Repairs - OUR SERVICES</title>
+    <link rel="stylesheet" href="our_services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Shared Header -->
+    <header class="banner-header">
+        <div class="logo-area">
+            <img src="Leon Logo.png" alt="Leon Mut Repairs Logo" class="brand-logo">
+            <p class="tagline">
+                Quality repairs. Reliable service.<br>
+                Lasting results.
+            </p>
+        </div>
+    </header>
+
+    <main class="main-body">
+        
+        <!-- Navigation Menu with Services Active -->
+        <nav class="navigation-menu">
+            <a href="index.html">HOME</a>
+            <a href="about_us.html">ABOUT US</a>
+            <a href="services.html" class="active-link">OUR SERVICES</a>
+            <a href="contact_us.html">CONTACT US</a>
+        </nav>
+
+        <!-- Intro Slogan Heading -->
+        <section class="services-intro">
+            <h1>We mainly focus on <span class="highlight-text">SELLING & REPAIRING</span> large appliances, kitchen appliances, workplace power tools, and more!</h1>
+        </section>
+
+        <!-- Container for the Singular Banner Image -->
+        <div class="services-image-container">
+            <!-- Ensure this filename matches the saved image file exactly -->
+            <img src="services.png" alt="Leon Mut Repairs Showcase and FAQs" class="full-services-image">
+            
+            <!-- Invisible Link positioned cleanly over the phone / contact section -->
+            <a href="tel:+27651210115" class="clickable-phone-overlay" title="Call Us Now"></a>
+        </div>
+
+    </main>
+
+    <!-- Shared Footer -->
+    <footer class="page-footer">
+        <div class="footer-grid">
+            <div class="footer-column contact-info">
+                <h2>LEON MUT REPAIRS</h2>
+                <ul class="info-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Belhar, Cape Town</li>
+                    <li><i class="fas fa-phone-alt"></i> +27 65 121 0115</li>
+                    <li><i class="fas fa-envelope"></i> mutmbleon@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-column business-hours">
+                <h2>HOURS</h2>
+                <ul class="info-list">
+                    <li><i class="fas fa-clock"></i> Mon-Sat: 8am - 4pm</li>
+                    <li><i class="fas fa-clock"></i> Sun: 9am - 2pm</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
