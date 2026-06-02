@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon MUT Repairs - HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="banner-header">
+        <div class="logo-area">
+            <img src="Leon Logo.png" alt="Leon Mut Repairs Logo" class="brand-logo">
+            <p class="tagline">
+                Quality repairs. Reliable service.<br>
+                Lasting results.
+            </p>
+        </div>
+    </header>
+
+    <main class="main-body">
+        
+        <nav class="navigation-menu">
+            <a href="index.html" class="active-link">HOME</a>
+            <a href="about_us.html">ABOUT US</a>
+            <a href="our_services.html">OUR SERVICES</a>
+            <a href="contact_us.html">CONTACT US</a>
+        </nav>
+
+        <section class="intro-section">
+            <div class="intro-text">
+                <h2>REPAIRS YOU CAN <span class="highlight-red">COUNT ON.</span></h2>
+                <div class="red-line-short"></div>
+                <p>We specialize in repairing, selling and buying refrigerators, microwaves, washing machines, and power tools. Whether you need a quick repair or you want to purchase quality appliances, we provide reliable solutions to keep your home and work running smoothly.</p>
+            </div>
+            <div class="intro-image-container">
+                <img src="appliance.png" alt="Modern kitchen and laundry appliances" class="intro-image">
+            </div>
+        </section>
+
+        <section class="services-section">
+            <div class="section-title-container">
+                <div class="title-line"></div>
+                <h2 class="section-title">OUR SERVICES</h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon-circle">
+                        <i class="fas fa-refrigerator"></i> <i class="fas fa-box-open"></i> 
+                    </div>
+                    <h3>REFRIGERATORS</h3>
+                    <div class="red-line-tiny"></div>
+                    <p>Expert repair and servicing for all refrigerator brands.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-circle">
+                        <i class="fas fa-soap"></i>
+                    </div>
+                    <h3>WASHING MACHINES</h3>
+                    <div class="red-line-tiny"></div>
+                    <p>Reliable repairs to get your washing machine running like new.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-circle">
+                        <i class="fas fa-digital-tachograph"></i>
+                    </div>
+                    <h3>MICROWAVES</h3>
+                    <div class="red-line-tiny"></div>
+                    <p>Fast and efficient repairs for all types of microwaves.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon-circle">
+                        <i class="fas fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3>POWER TOOLS</h3>
+                    <div class="red-line-tiny"></div>
+                    <p>Professional repair for all types of power tools.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <div class="why-wrapper">
+                <div class="why-title-column">
+                    <h2>WHY CHOOSE US?</h2>
+                    <div class="red-line-short"></div>
+                    <div class="shield-icon-container">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                </div>
+                
+                <div class="why-features-column">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-gear"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>EXPERIENCED TECHNICIANS</h3>
+                            <p>Skilled professionals with years of hands-on experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>FAST & RELIABLE SERVICE</h3>
+                            <p>Quick turnaround times without compromising on quality.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="far fa-handshake"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>CUSTOMER SATISFACTION</h3>
+                            <p>Your satisfaction is our priority. We deliver results you can trust.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-grid">
+            
+            <div class="footer-column contact-info">
+                <h2>LEON MUT REPAIRS</h2>
+                <ul class="info-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Belhar, Cape Town</li>
+                    <li><i class="fas fa-phone-alt"></i> +27 65 121 0115</li>
+                    <li><i class="fas fa-envelope"></i> mutmbleon@gmail.com</li>
+                </ul>
+            </div>
+            
+            <div class="footer-column business-hours">
+                <h2>HOURS</h2>
+                <ul class="info-list">
+                    <li>Mon-Sat: 8am - 4pm</li>
+                    <li>Sun: 9am - 2pm</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
