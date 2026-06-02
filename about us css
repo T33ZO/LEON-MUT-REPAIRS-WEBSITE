@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* The image with the appliance its a background so it covers the whole header*/
+.banner-header {
+    /* Sets the appliances as a background image covered with a blue overlay */
+    background: linear-gradient(to right, rgba(162, 210, 255, 0.45), rgba(0, 50, 150, 0.15)), 
+                url('Leon\ Banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 380px;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: flex-start; /* Aligns the logo container to the left */
+    align-items: flex-start;
+    width: 100%
+}
+
+.logo-area {
+    max-width: 220px;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;     /* Centers the text */
+}
+
+.brand-logo {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: transparent;
+    margin-bottom: 4px;    /* Adds a gap between logo and text so it looks calm*/
+}
+
+.tagline {
+    color: #0b2bf0; 
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    text-align: center;     /*both lines balance in the center */
+    width: 100%;
+    margin-top: 0;
+}
+
+/* This is for that grey uu see in background of the text  */
+.main-body {
+    background-color: #cccccc; /* Matches the clean grey color of the visual */
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    margin-top: -60px; /* Pulls the grey card up onto the background appliance image */
+    padding: 45px 8% 60px 8%;
+    flex-grow: 1;
+    position: relative;
+    z-index: 5;
+}
+
+/*  Navigation layout  */
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    color: #777777;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 6px;
+    transition: color 0.2s ease;
+}
+
+.navigation-menu a:hover,
+.navigation-menu a.active-link {
+    color: #0b2bf0;
+}
+
+.navigation-menu a.active-link {
+    border-bottom: 2px solid #0b2bf0; /* Dark blue indicator line */
+}
+
+/* Paragraph Styles */
+.about-text {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-text p {
+    color: #222222;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+/* --- Footer Area --- */
+.page-footer {
+    /* That red and black combo at the bottom */
+    background: linear-gradient(to bottom, #800202 0%, #170000 18%, #000000 100%);
+    color: #ffffff;
+    padding: 50px 8%;
+    border-top: 1px solid #900000;
+}
+
+.footer-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-column h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.info-list {
+    list-style: none;
+}
+
+.info-list li {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+/* Width control for structural alignment of the icons */
+.info-list i {
+    width: 25px;
+    font-size: 1.1rem;
+}
+
+/* --- Mobile Responsiveness Adjustments --- */
+@media (max-width: 768px) {
+    .banner-header {
+        height: 280px;
+        justify-content: center; /* Centers the brand on small mobile screens */
+        text-align: center;
+    }
+    
+    .logo-area {
+        margin: 0 auto;
+    }
+
+    .content-card {
+        margin-top: -40px;
+        padding: 30px 5%;
+    }
+
+    .navigation-menu {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .footer-grid {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* You can use some of this code on your own page especially the footer and the header since they the same on all the pages*/
