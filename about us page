@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leon MUT Repairs - ABOUT</title>
+        <link rel="stylesheet" href="about_us.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        
+        <header class="banner-header">
+            <div class="logo-area">
+                <img src= "Leon Logo.png" alt="Leon Mut Repairs Logo" class="brand-logo"> <!--Logo image -->
+                <p class="tagline"> <!--The slong under the Leon logo-->
+                    Quality repairs. Reliable service.<br>
+                    Lasting results.
+                </p>
+            </div>
+        </header>
+
+        <main class="main-body">
+            
+            <nav class="navigation-menu">
+                <a href="index.html">HOME</a>
+                <a href="about_us.html" class="active-link">ABOUT US</a>
+                <a href="our_services.html">OUR SERVICES</a>
+                <a href="contact_us.html">CONTACT US</a>
+            </nav>
+
+            <article class="about-text">
+                <p>We are a trusted appliance and power tool service specializing in both repairs and sales. From refrigerators and washing machines to microwaves and power tools, we provide reliable solutions to keep your home and work running smoothly.</p>
+                
+                <p>Whether you need a quick repair or are looking to purchase quality equipment, we are committed to delivering affordable pricing, fast service, and dependable results you can rely on.</p>
+                
+                <p>Our team focuses on diagnosing problems quickly and providing effective solutions that last. We take pride in our workmanship and ensure every repair is handled with care and attention to detail.</p>
+                
+                <p>In addition to repairs, we also offer a range of quality appliances and tools to suit your needs. Our goal is to provide a convenient, all-in-one service where you can repair, replace, or upgrade your equipment with confidence. From small power tools to large home appliances — we’ve got you covered.</p>
+            </article>
+
+        </main>
+
+        <footer class="page-footer"> <!-- The bottom of the page -->
+            <div class="footer-grid">
+                
+                <div class="footer-column contact-info">
+                    <h2>LEON MUT REPAIRS</h2>
+                    <ul class="info-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Belhar, Cape Town</li>
+                        <li><i class="fas fa-phone-alt"></i> +27 65 121 0115</li>
+                        <li><i class="fas fa-envelope"></i> mutmbleon@gmail.com</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column business-hours">
+                    <h2>HOURS</h2>
+                    <ul class="info-list">
+                        <li>Mon-Sat: 8am - 4pm</li>
+                        <li>Sun: 9am - 2pm</li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+
+    </body>
+</html>
