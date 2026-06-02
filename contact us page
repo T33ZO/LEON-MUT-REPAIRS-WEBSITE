@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leon MUT Repairs - CONTACT</title>
+        <link rel="stylesheet" href="contact_us.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        
+        <header class="banner-header">
+            <div class="logo-area">
+                <img src="Leon Logo.png" alt="Leon Mut Repairs Logo" class="brand-logo">
+                <p class="tagline">
+                    Quality repairs. Reliable service.<br>
+                    Lasting results.
+                </p>
+            </div>
+        </header>
+
+        <main class="main-body">
+            
+            <nav class="navigation-menu">
+                <a href="index.html">HOME</a>
+                <a href="about_us.html">ABOUT US</a> <!-- Links back to your About page -->
+                <a href="our_services.html">OUR SERVICES</a>
+                <a href="contact_us.html" class="active-link">CONTACT US</a>
+            </nav>
+
+            <!-- 4-Card Grid Section -->
+            <section class="contact-grid">
+                
+                <!-- Card 1: WhatsApp -->
+                <div class="contact-card">
+                    <i class="fab fa-whatsapp card-icon whatsapp-color"></i> <!-- Whatsapp Icon-->
+                    <h3>Connect Directly on WhatsApp</h3>
+                    <a href="https://wa.me/27651210115" target="_blank" class="card-btn">Chat Now</a> <!-- Link to Leons Number-->
+                </div>
+
+                <!-- Card 2: Email -->
+                <div class="contact-card">
+                    <i class="far fa-envelope card-icon email-color"></i> <!-- Email Icon-->
+                    <h3>Send us an Email</h3>
+                    <a href="mailto:mutmbleon@gmail.com" class="card-btn">Write to Us</a> <!--Link to Leons Email-->
+                    <p class="card-subtext">mutmbleon@gmail.com</p>
+                </div>
+
+                <!-- Card 3: Call -->
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt card-icon phone-color"></i>
+                    <h3>Call Our Expert Team</h3>
+                    <a href="tel:+27651210115" class="card-btn">Call Now</a>
+                    <p class="card-subtext">+27 65 121 0115</p>
+                </div>
+
+                <!-- Card 4: Facebook -->
+                <div class="contact-card">
+                    <i class="fab fa-facebook-f card-icon facebook-color"></i> <!--Facebook Icon-->
+                    <h3>Follow & Message on Facebook</h3>
+                    <!-- Replace '#' with your actual Facebook page link -->
+                    <a href="https://www.facebook.com/YOUR_FACEBOOK_PAGE_URL" target="_blank" class="card-btn">Visit Page</a>
+                </div>
+
+            </section>
+
+            <!-- Map Section -->
+            <div class="map-container">
+                <!-- Embedded Google Map centered on Belhar, Cape Town -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13244.417743171804!2d18.618032755468735!3d-33.951307699999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5160910bbfad%3A0x6b779a5b3a8e99de!2sBelhar%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1715000000000!5m2!1sen!2sza" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <!--The google maps at the bottom-->
+            </div>
+
+        </main>
+
+        <footer class="page-footer">
+            <div class="footer-grid">
+                
+                <div class="footer-column contact-info">
+                    <h2>LEON MUT REPAIRS</h2>
+                    <ul class="info-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Belhar, Cape Town</li>
+                        <li><i class="fas fa-phone-alt"></i> +27 65 121 0115</li>
+                        <li><i class="fas fa-envelope"></i> mutmbleon@gmail.com</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column business-hours">
+                    <h2>HOURS</h2>
+                    <ul class="info-list">
+                        <li>Mon-Sat: 8am - 4pm</li>
+                        <li>Sun: 9am - 2pm</li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+
+    </body>
+</html>
