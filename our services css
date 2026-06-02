@@ -1,0 +1,221 @@
+/* --- Base Reset styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- Banner Header Setup --- */
+.banner-header {
+    background: linear-gradient(to right, rgba(162, 210, 255, 0.45), rgba(0, 50, 150, 0.15)), 
+                url('Leon Banner.jpg') no-repeat center center;
+    background-size: cover;
+    height: 380px;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.logo-area {
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;    
+}
+
+.brand-logo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 4px;    
+}
+
+.tagline {
+    color: #0b2bf0; 
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 1.2;
+}
+
+/* --- Grey Container Dynamic Background --- */
+.main-body {
+    background-color: #cccccc; 
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    margin-top: -60px; 
+    padding: 45px 6% 60px 6%;
+    flex-grow: 1;
+    position: relative;
+    z-index: 5;
+}
+
+/* --- Navigation Menu Tab System --- */
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 40px;
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    color: #777777;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 6px;
+    transition: color 0.2s ease;
+    display: inline-block;
+}
+
+.navigation-menu a:hover,
+.navigation-menu a.active-link {
+    color: #0b2bf0;
+}
+
+.navigation-menu a.active-link {
+    border-bottom: 3px solid #0b2bf0; 
+    margin-bottom: -3px;
+}
+
+/* --- Intro Headings --- */
+.services-intro {
+    max-width: 900px;
+    margin: 0 auto 35px auto;
+    text-align: center;
+}
+
+.services-intro h1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #222222;
+    line-height: 1.4;
+}
+
+.highlight-text {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+/* --- Singular Image Wrapper & Overlay Architecture --- */
+.services-image-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.full-services-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Creates a precise hot-spot link box directly over the third column's phone CTA button graphic */
+.clickable-phone-overlay {
+    position: absolute;
+    bottom: 4%;     /* Targets vertical alignment area */
+    left: 53.5%;    /* Matches horizontal position over Column 3 */
+    width: 18%;     /* Bounds the button size width scale */
+    height: 10%;    /* Bounds the button size height scale */
+    background-color: rgba(255, 255, 255, 0); /* Invisible layer */
+    cursor: pointer;
+    border-radius: 30px;
+    z-index: 10;
+}
+
+/* --- Footer Alignment Area --- */
+.page-footer {
+    background: linear-gradient(to bottom, #800202 0%, #170000 18%, #000000 100%);
+    color: #ffffff;
+    padding: 50px 8%;
+    border-top: 1px solid #900000;
+}
+
+.footer-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-column h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.info-list {
+    list-style: none;
+}
+
+.info-list li {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.info-list i {
+    width: 20px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* --- Mobile Responsiveness Adjustments --- */
+@media (max-width: 768px) {
+    .banner-header {
+        height: 280px;
+        justify-content: center; 
+    }
+    
+    .logo-area {
+        margin: 0 auto;
+    }
+
+    .main-body {
+        margin-top: -40px;
+        padding: 30px 4%;
+    }
+
+    .navigation-menu {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .services-intro h1 {
+        font-size: 1.3rem;
+    }
+
+    /* Recalibrate hot-spot location for small scaled image views */
+    .clickable-phone-overlay {
+        bottom: 4%;
+        left: 53.5%;
+        width: 18%;
+        height: 10%;
+    }
+
+    .footer-grid {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
